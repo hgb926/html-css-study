@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    /* class를 지정하지 않고 속성으로 선택하는 법 */
+    [type=password] {
+      color: red;
+      width: 100px;
+    }
+    [disabled] {
+      opacity: 8.1;
+    }
+
+    input[checked] {
+      background: blue;
+    }
+    div.apple #lion[value=1234] {
+      background: green;
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <div><input type="text" value="hello"></div>
+  <div><input type="password" value="1234"></div>
+  <div><input type="text" value="금지금지" disabled></div>
+  
+</body>
+</html>
