@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    * {
+      box-sizing: border-box;
+    }
+
+    section {
+      width: 700px;
+      height: 500px;
+      border: 3px double #123456;
+      background: lightgray;
+      margin: 100px;
+    }
+
+    section h1 {
+      width: 100%;
+      height: 60px;
+      text-align: center;
+      margin-bottom: 0;
+      margin-top: 25px;
+      font-size: 35px;
+      font-family: serif;
+    }
+
+    section .header {
+      width: 100%;
+      height: 30px;
+      background: rgb(68, 67, 67);
+      color: white;
+      font-size: 17px;
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 35px;
+  
+    }
+    
+    section .bottom {
+      width: 100%;
+      height: 364px;
+      border: 1px solid #000;
+      background: rgb(104, 104, 104);
+      box-shadow: 0 4px 4px -4px black;
+    }
+
+
+    section .bottom .mainimgbox {
+      width: 23.75%;
+      height: 324px;
+      border: 1px solid white;
+      float: left;
+      margin-top: 18px;
+      margin-bottom: 18px;
+      margin-left: 7px;
+    } 
+
+
+    section .bottom .mainimgbox .image{
+      width: 92%;
+      height: 48%;
+      margin: 3.5%;
+      border: 1px solid white;
+      background-size: cover;
+
+    }
+
+    section .bottom .mb1 {
+      background: rgb(216, 51, 51);
+    }
+    section .bottom .mb2 {
+      background: rgb(218, 142, 218)
+    }
+    section .bottom .mb3 {
+      background: rgb(228, 156, 22);
+    }
+    section .bottom .mb4 {
+      background: rgb(235, 235, 37)
+    }
+
+    section .bottom .mainimgbox .img1 {
+      background-image: url("../../../img/tulip.jpg") ;
+    }
+    section .bottom .mainimgbox .img2 {
+     background-image: url(../../../img/jebi.jpg);
+    }
+    section .bottom .mainimgbox .img3 {
+     background-image: url(../../../img/hobak.jpg);
+     background-position: -45px 0;
+    }
+    section .bottom .mainimgbox .img4 {
+     background-image: url(../../../img/sunflower.jpg);
+    }
+
+    section .bottom .mainimgbox .text {
+      width: 92%;
+      margin: 18px 8px 0px 8px;
+      font-size: 16px;
+      font-weight: 550;
+    }
+
+    .hilight {
+      color: yellow;
+      font-size: 20px;
+    }
+
+
+  </style>
+</head>
+<body>
+  <section>
+    <h1>니의 아름다운 정원</h1>
+    <div class="header">사람들은 아마 자신에게 <span class="hilight">자신감을 북돋워 주는</span> 표정 있는 꽃들을 선호할 것이다.</div>
+    <div class="bottom">
+      <div class="mainimgbox mb1">
+        <div class="image img1"></div>
+        <div class="text">
+          너무 화려하지 않으며 고귀한 느낌을 가지고 있다.
+          붉은 색이 단연 으뜸이며 한 송이만 있어도 빼어나다.
+        </div>
+      </div>
+      <div class="mainimgbox mb2">
+        <div class="image img2"></div>
+        <div class="text">
+          드물게 푸른색을 띠고 있으며 작지만 시원해 보이는
+          어린 꽃이라고 할 수 있다. 여럿이 함께 있을 때 더욱 아름답다.
+          </div>
+      </div>
+      <div class="mainimgbox mb3">
+        <div class="image img3"></div>
+        <div class="text">
+          색도 모양도 화려하며 이름과 걸맞지 않게 아름다운 꽃으로
+          매우 완숙한 이미지를 풍기는 꽃이다.
+          </div>
+      </div>
+      <div class="mainimgbox mb4">
+        <div class="image img4"></div>
+        <div class="text">
+          태양만 바라보는 일편단심의 꽃으로 얼굴이 큰 편에
+          속하며 송이가 적어야 제격이다.</div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
