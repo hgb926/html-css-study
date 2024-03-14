@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    .container {
+      margin: 100px;
+    }
+
+    .box {
+      width: 100px;
+      height: 100px;
+      background: orange;
+      border: 4px dashed red;
+      font-size: 30px;
+      /* 텍스트 중앙정렬 */
+      text-align: center;
+      /* line-height를 박스의 height랑 맞추면
+         y축 중앙 정렬 가능
+      */
+      /* df, jcc, aic */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .box:nth-child(2) {
+      position: relative;
+      /* left면 left를 기준으로 10px만큼 간다는 */
+      left: 50px;
+      /* y축 */
+      top: 0px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+  </div>  
+</body>
+</html>
