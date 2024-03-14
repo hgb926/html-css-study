@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    .box {
+      width: 200px;
+      height: 200px;
+      background: orange;
+      margin: 50px;
+      font-size: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      /* 변환 시간 */
+      transition: 1s;
+    }
+    .box1:hover {
+
+      /* 회전 효과 */
+      transform: rotate(150deg);
+    }
+
+    .box2:hover {
+
+      /* 이동 효과 */
+      transform: translate(50px, 30px);
+    }
+
+    .box3:hover {
+
+      /* 확대 축소 (1이 기본값) */
+      transform: scale(0.7); 
+    }
+
+    .box4:hover {
+      transform: skew(50deg, 50deg);
+    }
+
+    .box5:hover {
+      transform: rotate(280deg) scale(2) translate(50px, 12px) ;
+    }
+
+
+
+  </style>
+</head>
+<body>
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box5">5</div>
+</body>
+</html>

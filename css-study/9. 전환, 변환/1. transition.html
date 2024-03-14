@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    .box {
+      width: 100px;
+      height: 100px;
+      background: skyblue;
+      margin: 50px;
+
+      /* hover효과에 넣을 속성 (hover말고 본체에 줘야함)*/
+      /* all은 수축 팽창 둘다 해당 */
+      transition-property: all;
+
+      /* 수축, 팽창하는 시간 */
+      transition-duration: 1s;
+
+      /* 마우스를 올렸을때 반응의 시작 까지 걸리는 시간 */
+      transition-delay: 0.2s;
+
+      /* 균일한 속도로 설정하는 법 */
+      transition-timing-function: linear;
+
+      /* 단축 속성 */
+      transition: all 1s 50ms linear;
+    }
+
+    .box:hover {
+      width: 300px;
+      height: 250px;
+      background: rgb(21, 111, 247);
+    }
+
+  </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

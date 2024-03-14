@@ -1,0 +1,68 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+ width: 100%; 
+}
+body #warp {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+body #warp .search {
+  margin: 50px auto;
+  width: 50%;
+  padding: 50px 50px 5px;
+  border: 1px solid rgb(118, 221, 118);
+  border-radius: 50px;
+  position: relative;
+}
+
+body #warp .search .logo {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 15px;
+  top: 6.5px;
+  background: url(../../../자습/네이버로고.jpg);
+  background-size: cover;
+  float: left;
+}
+
+body #warp .search .input {
+  float: left;
+  position: absolute;
+  top: -2px;
+  left: 80px;
+  color: rgba(212, 212, 212, 0.1);
+
+}
+
+body #warp .search .input input {
+  height: 30px;
+  padding: auto;
+  width: 75%;
+
+}
+
+body #warp .search .keyboard {
+  
+  float: left; 
+}
+
+body #warp .search .zoom {
+  float: left;
+}
+
+
+body #warp .nav {
+  border: 1px solid #000;
+  width: 50%;
+  margin: 50px auto;
+  padding: 50px 50px 5px;
+  
+}

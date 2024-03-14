@@ -1,0 +1,60 @@
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  border: 1px solid #000;
+}
+
+body .header {
+  width: 100%;
+  border: 1px solid #000;
+}
+
+body .clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+body .header .logo {
+  width: 80px;
+  height: 80px;
+  background: url(../img/나이키로고.png);
+  background-size: cover;
+  margin-left: 25px;
+  float: left;
+  background: yellow;
+}
+/* body .header .top-item {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px;
+}
+
+body .header .top-item .items {
+  float: left;
+  padding: 13px;
+} */
+
+body .header .clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+body .header .icons {
+
+  width: 160px;
+  height: 80px;
+  border: 1px solid #000;
+  display: inline-block;
+  background: lightblue;
+  padding-right: 41%;
+  padding-left: 41%;
+}
