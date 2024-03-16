@@ -8,7 +8,7 @@ body {
 
 .top-warp {
     width: 100%;
-    
+    background: fixed;
 }
 
 /* 마진 좌우 5프로씩 */
@@ -21,14 +21,13 @@ body {
 
 .middle-header {
     /* background: white; */
-  
+
     position: relative;
 }
 
 .bottom-header {
     background: rgba(237, 237, 237, 0.97);
     position: relative;
-
 }
 
 .top-header ul {
@@ -44,6 +43,7 @@ body {
     font-size: 0.9em;
     cursor: pointer;
 }
+
 
 .top-header ul li:hover {
     font-weight: 900;
@@ -68,14 +68,11 @@ body {
     height: 70px;
     float: left;
     padding-left: 60px;
-    /* background: url('../img/나이키로고.png'); */
 }
 
 .middle-header .logo .real-logo {
-    /* background: url('../../img/나이키_로고_\(1\).jpg'); */
-    width: 70px;
-    height: 70px;
-    background: center/cover;
+    background: url('../img/나이키-로고.jpg') center/cover;
+    width: 100%;
     float: left;
     
 }
@@ -163,4 +160,75 @@ body {
     cursor: pointer;
 }
 
+/* main section */
 
+.main-warp {
+    width: 92%;
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+}
+
+.main-warp .main-ad-photo {
+    width: 100%;
+    height: 120vh;
+
+}
+.main-warp .main-ad-photo .real-main-ad-photo {
+    width: 100%;
+    height: 120vh;
+    background: url('../img/나이키-메인광고.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.main-warp .descript-main-ad-photo {
+    width: 100%;
+    /* border: 1px solid #000; */
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+}
+.main-warp .descript-main-ad-photo .air-max {
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.main-warp .descript-main-ad-photo .feel {
+    padding-bottom: 30px;
+    font-size: 3.5em;
+    font-weight: 900;
+}
+.main-warp .descript-main-ad-photo .descript {
+    line-height: 35px;
+    font-size: 1.2em;
+}
+
+.main-warp .descript-main-ad-photo .black-button-warp {
+    width: 25%;
+    margin-left: 40%;
+}
+
+.main-warp .descript-main-ad-photo .black-button-warp .black-button {
+    float: left;
+    background: black;;
+    color: white;
+    border: 1px solid #000;
+    border-radius: 40px;
+    padding: 10px 30px;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 70px;
+
+}
+.main-warp .descript-main-ad-photo .black-button-warp .black-button:last-child {
+    margin-left: 20px;
+}
+.main-warp .descript-main-ad-photo .black-button-warp .black-button:hover {
+    background: grey;
+    opacity: 0.8;
+}
