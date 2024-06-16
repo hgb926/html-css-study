@@ -226,6 +226,7 @@ header .gnb {
 
 header .gnb.on{
   right: 0;
+  width: 40%;
 }
 
 header .gnb .close {
@@ -234,6 +235,7 @@ header .gnb .close {
 }
 header .gnb ul {
   margin-right: 200px;
+  width: 40%;
 }
 header .gnb ul li {
   font-weight: 700;
